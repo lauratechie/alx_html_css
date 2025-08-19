@@ -2,12 +2,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background : beige;
 }
 
 body{
     display: flex;
     flex-direction: column;
 }
+
+header li.logo {
+    font-size: 36px;
+}
+
 
 main{
     display: flex;
@@ -18,9 +24,11 @@ main{
 .main > article {
     flex: 2;
     overflow-y: auto; /* Allow scrolling for long content */
+    border-radius: 20px;
 }
 
 .main > aside {
     flex: 1;
     overflow-y: auto; /* Allow scrolling for long content */
+    border-radius: 20px;
 }
