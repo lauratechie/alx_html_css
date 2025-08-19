@@ -2,12 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background : beige;
+    
 }
 
 body{
     display: flex;
     flex-direction: column;
+    background-color: beige;
 }
 
 header li.logo {
@@ -19,16 +20,26 @@ main{
     display: flex;
     flex-direction: row;
     flex: auto;
+    padding: 20px;
+    gap: 20px;
 }
 
 .main > article {
     flex: 2;
     overflow-y: auto; /* Allow scrolling for long content */
     border-radius: 20px;
+    padding: 20px;
 }
 
 .main > aside {
     flex: 1;
     overflow-y: auto; /* Allow scrolling for long content */
     border-radius: 20px;
+}
+
+footer {
+    background-color: beige;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
 }
