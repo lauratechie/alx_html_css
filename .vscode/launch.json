@@ -8,7 +8,8 @@
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "http://localhost:8080",
+            "url": "http://127.0.0.1:3000/css_basic/index.html",
+            "url": "http://127.0.0.1:3000/css_advanced/index.html",
             "webRoot": "${workspaceFolder}"
         }
     ]
