@@ -80,7 +80,7 @@ button:hover {
     color: white;
     padding: 20px;
 }
- span {
+.learn {
     color: rgb(240, 115, 240);
 }
 
@@ -129,4 +129,119 @@ button:hover {
     margin-top: 15px;
     line-height: 35px;
 
+}
+
+.videos {
+    background: white;
+    padding: 50px 0;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.title h2 {
+    font-size: 32px; /* Bigger for emphasis */
+    font-weight: bold;
+}
+
+.popular {
+    color: rgb(240, 115, 240);
+}
+
+
+.tutorials-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* space between cards */
+    flex-wrap: wrap; /* responsive */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Individual tutorial cards */
+.popular-tutorials {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 15px;
+    width: 220px;
+    text-align: left;
+}
+
+.popular-tutorials img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.popular-tutorials h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.popular-tutorials p {
+    font-size: 14px;
+    color: #666;
+}
+
+.popular-tutorials-author {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.popular-tutorials-author img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.stars {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.membership{
+    background-color:  rgb(1, 1, 59);
+    padding: 50px;
+}
+.membership h2{
+    text-align: center;
+    color: white;
+
+}
+
+.free {
+    color: rgb(240, 115, 240);
+}
+
+.mem {
+    display: flex;
+    flex-direction: row;
+    background: rgb(1, 1, 59);
+    padding: 90px;
+    line-height: 30px;
+}
+
+.mem h3 {
+    justify-content: center;
+    color: white;
+}
+
+.mem p {
+    justify-content: center;
+    color: white;
+}
+.mem img {
+    justify-content: center;
+}
+
+button {
+    display: flex;
+    margin: 0 auto;
 }
