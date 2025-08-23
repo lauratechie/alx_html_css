@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    padding: 40px;
+}
+
+.image-wrap {
+    background: url("./images/Object.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+header .logo img {
+    width: 100px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+}
+
+.introduction .title {
+    font-size: 50px;
+    margin-bottom: 2px;
+}
+
+.introduction .extras {
+    margin-bottom: 15px;
+    justify-content: space-between;
+    display: flex;
+    gap: 40px;
+    font-size: 12px;
+}
+
+button {
+    background-color: rgb(240, 115, 240);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(123, 4, 123);
+    transition: all 0.3s ease;
+}
+
+.testimonials {
+    text-align: center;
+    margin: 50px 0;
+    color: white;
+    padding: 20px;
+}
+ span {
+    color: rgb(240, 115, 240);
+}
+
+.theading {
+    margin-bottom: 30px;
+}
+
+.testimonials1 {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+
+.testimonials1 div {
+    text-align: center;
+}
+
+.testimonials img{
+    width: 120px;
+     height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
