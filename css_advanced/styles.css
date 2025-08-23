@@ -108,3 +108,25 @@ button:hover {
     margin-bottom: 10px;
 }
 
+.testimonial2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background:  rgb(240, 115, 240);
+    padding: 50px;
+}
+
+.testimonial2 img{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.testimonial2-content {
+    justify-content: center;
+    margin-top: 15px;
+    line-height: 35px;
+
+}
